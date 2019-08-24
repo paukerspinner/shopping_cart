@@ -1,0 +1,52 @@
+.orange-text {
+	color: orange;
+}
+
+.btn-circle {
+	border-radius: 100%;
+}
+
+.btn-outline-orange {
+	border-color: orange;
+	color: orange;
+	background-color: white;
+}
+
+.justify-content-around {
+    -ms-flex-pack: distribute!important;
+    justify-content: space-around!important;
+}
+
+.d-flex {
+    display: -ms-flexbox!important;
+    display: flex!important;
+}
+
+.font-30px {
+	font-size: 30px;
+}
+
+.border-none {
+	border: none;
+}
+
+.max-width-100px {
+	max-width: 100px;
+}
+
+.body {
+	margin: 0;
+	padding: 0;
+}
+
+.bg-footer {
+	background: #f8f8f8;
+}
+
+.mgb-0 {
+	margin-bottom: 0;
+}
+
+.pd-15 {
+	padding: 15px;
+}
