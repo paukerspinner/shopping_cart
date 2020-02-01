@@ -4,9 +4,9 @@ import './../styles/myStyle.css'
 class Product extends React.Component {
 	render() {
 		var { product } = this.props;
-		var { id, picture, price, rating, description, name } = product;
+		var { picture, price, rating, description, name } = product;
 		return (
-			<div className="col-xs-6 col-sm-4 col-lg-3">
+			<div className="col-xs-12 col-sm-4 col-lg-3">
 			    <a href="#." className="thumbnail">
 			      <img src={ picture } alt="Img" />
 			    </a>

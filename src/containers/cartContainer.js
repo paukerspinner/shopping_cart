@@ -20,7 +20,7 @@ class CartContainer extends React.Component {
 			let { id, name, picture, price } = product;
 			return (
 				<tr key={ index }>
-					<td><img className="img-thumbnail border-none max-width-100px" src={ picture } alt={ name }/></td>
+					<td className="hidden-xs"><img className="img-thumbnail border-none max-width-100px" src={ picture } alt={ name }/></td>
 					<td>{ name }</td>
 					<td>{ price }$</td>
 					<td>
@@ -44,7 +44,7 @@ class CartContainer extends React.Component {
 		}, 0)
 		return (
 			<tr>
-				<td></td>
+				<td className="hidden-xs"></td>
 				<td></td>
 				<td></td>
 				<td>Tổng tiền</td>

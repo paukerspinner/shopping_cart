@@ -28,7 +28,7 @@ const initialState = [
 		name: 'Oppo F11',
 		price: 500,
 		rating: 2,
-		picture: 'http://directd.com.my/images/thumbs/0027308_oppo-f11-4gb-ram-128gb-rom-original-set-ready-stock-freebies_600.jpeg',
+		picture: 'https://www.duchuymobile.com/images/detailed/25/Oppo-F11-Pro.jpg',
 		description: 'Sản xuất ở Việt Nam'
 	}
 ]
